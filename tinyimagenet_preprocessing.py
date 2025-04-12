@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/github/bhartiansh/pruning_comparison_research/blob/main/TinyImageNET_Preprocessing.ipynb
 """
 
-!wget https://raw.githubusercontent.com/yandexdataschool/Practical_DL/spring2019/week03_convnets/tiny_img.py -O tiny_img.py
-
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
