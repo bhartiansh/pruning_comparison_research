@@ -10,10 +10,6 @@ Original file is located at
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-# Commented out IPython magic to ensure Python compatibility.
-!git clone https://github.com/bhartiansh/pruning_comparison_research
-# %cd pruning_comparison_research
-
 def load_tiny_imagenet_data(data_dir='./tiny-imagenet-200/tiny-imagenet-200'):
     train_dir = f'{data_dir}/train'
     val_dir = f'{data_dir}/val'
