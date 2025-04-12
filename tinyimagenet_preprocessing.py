@@ -7,7 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1QNrz9xwH7UL_j-iLZQiC8haGJvmQ4HYA
 """
 
-!wget https://raw.githubusercontent.com/yandexdataschool/Practical_DL/spring2019/week03_convnets/tiny_img.py -O tiny_img.py
+import subprocess
+subprocess.run(["wget", "https://raw.githubusercontent.com/yandexdataschool/Practical_DL/spring2019/week03_convnets/tiny_img.py", "-O", "tiny_img.py"])
 
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
