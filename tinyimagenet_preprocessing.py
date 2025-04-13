@@ -13,9 +13,9 @@ subprocess.run(["wget", "https://raw.githubusercontent.com/yandexdataschool/Prac
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-def load_tiny_imagenet_data(data_dir='./tiny-imagenet-200/tiny-imagenet-200', target_size=(224, 224), batch_size=64):
-    train_dir = f"{data_dir}/train"
-    val_dir = f"{data_dir}/val"
+def load_tiny_imagenet_data('./tiny-imagenet-200/tiny-imagenet-200', target_size=(224, 224), batch_size=64):
+    train_dir = /tiny-imagenet-200/tiny-imagenet-200/train"
+    val_dir = /tiny-imagenet-200/tiny-imagenet-200/val"
 
     train_datagen = ImageDataGenerator(rescale=1./255)
     val_datagen = ImageDataGenerator(rescale=1./255)
